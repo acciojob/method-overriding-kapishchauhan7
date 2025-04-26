@@ -5,7 +5,6 @@ public class Main {
     B b = new B();
     b.printA();
     b.meth();
-    
   }
 }
 
