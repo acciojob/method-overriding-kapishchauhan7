@@ -12,6 +12,7 @@ public class TestCases {
         A a = new A();
         B b = new B();
 
+        
         assertEquals("Invoking method from class A", a.meth());
         assertEquals("Method is overridden in Extended class B", b.meth());
         assertEquals("Invoking method from class A", b.printA());
